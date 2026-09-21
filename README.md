@@ -4,7 +4,11 @@ A private cinematic collection built with React, TypeScript, Vinext and accessib
 
 ## Run locally
 
-Requires Node.js 22.13 or later. Run `npm ci`, then `npm run dev`. Run `npm run build` to create the production Worker and assets. Run `npm test` for regression tests and `npm run typecheck` for TypeScript validation.
+Requires Node.js 22 (22.13 or later). Run `npm ci`, then `npm run dev`. Run `npm run build` to create the production Worker and assets. Run `npm test` for regression tests and `npm run typecheck` for TypeScript validation.
+
+## Deploy to Vercel
+
+Import the repository with the project root set to this directory. `vercel.json` selects Next.js and runs `npm run build:vercel`, producing the `.next` output Vercel requires. The default `npm run build` uses Vinext for the existing Worker workflow and must not be used as the Vercel build command. Node.js is pinned to major version 22 to avoid automatic major upgrades.
 
 ## Personal content
 
