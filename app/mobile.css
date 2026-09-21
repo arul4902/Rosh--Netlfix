@@ -1,0 +1,89 @@
+/* Keep the media viewport and close control anchored while details scroll. */
+@media (max-width: 760px) {
+  .memory-modal,
+  .search-modal {
+    inset: max(10px, env(safe-area-inset-top)) 10px max(10px, env(safe-area-inset-bottom)) !important;
+    width: auto !important;
+    max-width: none !important;
+    height: auto !important;
+    max-height: none !important;
+    translate: none !important;
+    transform: none !important;
+    animation: none !important;
+    border-radius: 12px !important;
+    overscroll-behavior: contain;
+  }
+
+  .memory-modal {
+    display: flex !important;
+    flex-direction: column;
+    overflow: hidden !important;
+  }
+  .memory-modal .modal-visual {
+    flex: 0 0 auto;
+    width: 100%;
+    height: clamp(180px, 43dvh, 420px);
+    min-height: 0;
+    padding-top: 48px;
+  }
+  .memory-modal .modal-visual :is(.contained, video) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    object-fit: contain;
+    object-position: center;
+  }
+  .memory-modal .slow-zoom { animation: none !important; }
+  .memory-modal .modal-copy {
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    padding: 20px 18px max(24px, env(safe-area-inset-bottom));
+  }
+  .memory-modal > [data-slot=dialog-close],
+  .search-modal > [data-slot=dialog-close] {
+    top: 6px;
+    right: 6px;
+    min-width: 40px;
+    min-height: 40px;
+    display: grid;
+    place-items: center;
+    z-index: 10;
+    background: #161616;
+    border-radius: 50%;
+  }
+  .modal-title { overflow-wrap: anywhere; font-size: 27px !important; }
+  .modal-buttons { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .modal-buttons .btn { padding: 10px 8px; min-width: 0; font-size: 12px; }
+  .modal-buttons .text-button { grid-column: 1 / -1; }
+  .episode-navigation button { min-height: 44px; font-size: 11px; }
+  .scene-thumbs { max-width: 100%; padding-bottom: 8px; }
+  .scene-thumbs img { width: 66px; height: 74px; }
+  .slideshow-control { max-width: calc(100% - 24px); gap: 12px; white-space: nowrap; }
+  .chat-sequence { max-width: 100%; padding: 16px; overflow-y: auto; max-height: 100%; }
+  .chat-sequence blockquote { font-size: 24px; overflow-wrap: anywhere; }
+
+  .search-modal { overflow-y: auto; padding: 52px 18px 24px !important; }
+  .search-results > button, .search-results > button > div { min-width: 0; }
+  .search-results img { flex-shrink: 0; width: 66px; }
+  .search-results h3 { overflow-wrap: anywhere; }
+  .search-results > button { gap: 12px; }
+  .milestone { grid-template-columns: 34px minmax(0, 1fr) 60px; gap: 10px; }
+  .milestone img { width: 60px; }
+  .milestone h3, .little-grid h3 { overflow-wrap: anywhere; }
+  .little-grid > button > div, .song-copy, .polaroid { min-width: 0; }
+  .mini-player { width: calc(100% - 24px); bottom: max(12px, env(safe-area-inset-bottom)); }
+  .mini-player > div { flex: 1; }
+  .mini-player input { flex: 0 0 45px; }
+  .mini-player button { flex-shrink: 0; min-width: 36px; min-height: 40px; }
+  .hero-buttons .btn { flex: 1 1 140px; }
+}
+
+@media (max-width: 760px) and (max-height: 500px) {
+  .memory-modal .modal-visual { height: 42dvh; padding-top: 40px; }
+  .memory-modal .modal-copy { padding-top: 12px; }
+}
