@@ -5,7 +5,20 @@
     "yearsTogether": 10,
     "beginning": "10th standard"
   },
-  "dates": [],
+  "dates": [
+    {
+      "day": 3,
+      "month": 5,
+      "event": "Her father gave his consent",
+      "year": null
+    },
+    {
+      "day": 26,
+      "month": 6,
+      "event": "Mathi passed away",
+      "year": null
+    }
+  ],
   "locations": [],
   "songs": [
     {
@@ -27,7 +40,7 @@
       "title": "From 10th Standard",
       "label": "S1 : E01",
       "image": "/media/photo-13.webp",
-      "description": "A school love. Ten years together. These photographs bring together their memories; they are not dated school-day photographs.",
+      "description": "Their love began in 10th standard. Despite opposition at home, they chose the same college. These photographs remember their story; they are not dated school or college pictures.",
       "photos": [
         13,
         1,
@@ -114,7 +127,7 @@
       "title": "Forever, Us",
       "label": "S1 : E08",
       "image": "/media/photo-04.webp",
-      "description": "Ten years of love, kept close in photographs, films and words.",
+      "description": "On May 3, her father said yes. A wedding was six months away. On June 26, Mathi passed away. Their shared future became the memories Roshini carries with her.",
       "photos": [
         4,
         1,
@@ -182,20 +195,44 @@
     {
       "label": "THE BEGINNING",
       "title": "10th standard",
-      "text": "School love. The beginning Roshini shared.",
+      "text": "A love that began at school, before they knew how much life would ask of them.",
       "photo": 13
     },
     {
-      "label": "THEIR TIME TOGETHER",
-      "title": "10 years of love",
-      "text": "A decade, remembered through their photographs and videos.",
+      "label": "CHOOSING EACH OTHER",
+      "title": "The same college",
+      "text": "Despite opposition at home, they joined the same college. Small misunderstandings later grew into a separation.",
       "photo": 1
     },
     {
-      "label": "HELD CLOSE",
-      "title": "Still living in his memories",
-      "text": "Roshini’s words, exactly as shared.",
+      "label": "THREE YEARS APART",
+      "title": "A name on a screen",
+      "text": "Three years without speaking or seeing each other. Then Roshini found his name online, and they reconnected.",
+      "photo": 7
+    },
+    {
+      "label": "FINDING THEIR WAY BACK",
+      "title": "He came back for her",
+      "text": "There were struggles, arguments, and another year of silence. Mathi returned, asking to build a life with her and seeking her family’s acceptance.",
       "photo": 14
+    },
+    {
+      "label": "MAY 3",
+      "title": "At last, a yes",
+      "text": "Her father gave his consent. They were told the wedding could happen in six months. After years of waiting, a shared future finally felt close.",
+      "photo": 13
+    },
+    {
+      "label": "JUNE 26",
+      "title": "The evening everything changed",
+      "text": "That day Mathi spoke of chest pain. Roshini asked him to go to hospital; he went home to rest. That evening, his father called to tell her Mathi had passed away.",
+      "photo": 14
+    },
+    {
+      "label": "A LOVE STILL CARRIED",
+      "title": "Still living in his memories",
+      "text": "She had imagined holding his hand through life. Now she holds their memories close, carrying their ten years of love into every day.",
+      "photo": 1
     }
   ]
 }

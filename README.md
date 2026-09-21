@@ -12,7 +12,7 @@ Import the repository with the project root set to this directory. `vercel.json`
 
 ## Personal content
 
-Edit `content/story.json` for chapter titles, descriptions, film titles and their durations, exact chat excerpts, timeline details, and the optional letter. Dates, songs, locations and voice notes are empty because they were not supplied. Adding those content types requires corresponding rendering, rather than inventing entries. Assets live in `public/media`. Read `CONTENT-MAP.md` for the source-to-chapter map and factual boundaries.
+Edit `content/story.json` for chapter titles, descriptions, film titles and their durations, exact chat excerpts, timeline details, and the optional letter. The supplied story includes May 3 and June 26, without years. Locations and voice notes remain empty because they were not supplied. Adding those content types requires corresponding rendering, rather than inventing entries. Assets live in `public/media`. Read `CONTENT-MAP.md` for the source-to-chapter map and factual boundaries.
 
 The personalized Tamil song is “உன் நினைவில் வாழ்கிறாய்”. “A Life Full of Love Theme (Instrumental)” loops as background music. Both recordings were supplied by the user. Background playback is attempted on arrival; when the browser blocks audible autoplay, Enter with sound starts it. Enter quietly disables sound. Background music pauses for the personalized song or a film and resumes afterward unless paused or muted. Videos retain their original audio. No generated portraits or fabricated messages are included. Video transcripts were not supplied; the original films currently have no subtitle tracks.
 
@@ -24,11 +24,13 @@ The personalized Tamil song is “உன் நினைவில் வாழ�
 - Six original films, native playback controls, saved playback position
 - Device-local favourites, search and viewing progress
 - Personalized Tamil song, looping background instrumental, volume controls and global mute
-- Memory wall, factual timeline and quiet final chapter
+- Memory wall, expanded timeline, and an inline Tamil remembrance with the complete supplied lyrics
 - Reduced-motion styles, focus states, modal focus management and mobile bottom sheets
 
 Favourites and progress stay in the current browser. They do not sync between devices. Profiles personalize the avatar; they are not separate accounts. Local builds do not require sign-in. Access restrictions must be configured with the hosting provider; the profile selector does not protect the content. A public GitHub repository exposes its committed media independently of any website access settings. The site requests no analytics, external fonts or third-party media.
 
 ## Validation
 
-Production build and TypeScript checking. Browser verification covers entrance/profile flow, episode details, saving, search, video playback, ending and phone widths 360, 375, 390, 393, 412 and 430 pixels (the preview browser rounded 393 to 394). Native video controls provide fullscreen and audio controls.
+Production build and TypeScript checking. Browser verification covers entrance/profile flow, episode details, saving, search, video playback, the previous ending and phone widths 360, 375, 390, 393, 412 and 430 pixels (the preview browser rounded 393 to 394). Native video controls provide fullscreen and audio controls.
+
+The broken “One last episode” overlay has been removed. The remembrance now appears within the normal page; its Tamil story can be expanded without opening a modal. The complete supplied text is in `content/remembrance.json`. No cause of death or calendar year is inferred.
