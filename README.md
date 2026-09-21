@@ -4,7 +4,7 @@ A private cinematic collection built with React, TypeScript, Vinext and accessib
 
 ## Run locally
 
-Requires Node.js 22.13 or later. Run `npm ci`, then `npm run dev`. Run `npm run build` to create the production Worker and assets.
+Requires Node.js 22.13 or later. Run `npm ci`, then `npm run dev`. Run `npm run build` to create the production Worker and assets. Run `npm test` for regression tests and `npm run typecheck` for TypeScript validation.
 
 ## Personal content
 
@@ -23,7 +23,7 @@ The soundtrack is an original synthesized ambient chord, not an attributed favou
 - Memory wall, factual timeline and quiet final chapter
 - Reduced-motion styles, focus states, modal focus management and mobile bottom sheets
 
-Favourites and progress stay in the current browser. They do not sync between devices. Profiles personalize the avatar; they are not separate accounts. Private access is enforced by Sites hosting, not by the profile selector. The site requests no analytics, external fonts or third-party media.
+Favourites and progress stay in the current browser. They do not sync between devices. Profiles personalize the avatar; they are not separate accounts. Local builds do not require sign-in. Access restrictions must be configured with the hosting provider; the profile selector does not protect the content. A public GitHub repository exposes its committed media independently of any website access settings. The site requests no analytics, external fonts or third-party media.
 
 ## Validation
 
