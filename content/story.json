@@ -1,0 +1,190 @@
+{
+  "couple": {
+    "her": "Roshini",
+    "him": "Mathi",
+    "yearsTogether": 10,
+    "beginning": "10th standard"
+  },
+  "dates": [],
+  "locations": [],
+  "songs": [],
+  "voiceNotes": [],
+  "letter": null,
+  "episodes": [
+    {
+      "id": "school",
+      "title": "From 10th Standard",
+      "label": "S1 : E01",
+      "image": "/media/photo-13.webp",
+      "description": "A school love. Ten years together. These photographs bring together their memories; they are not dated school-day photographs.",
+      "photos": [
+        13,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "smiles",
+      "title": "Two Smiles, One Frame",
+      "label": "S1 : E02",
+      "image": "/media/photo-01.webp",
+      "description": "Roshini and Mathi, together in the photographs they kept.",
+      "photos": [
+        1,
+        13,
+        4
+      ]
+    },
+    {
+      "id": "bloom",
+      "title": "In Full Bloom",
+      "label": "S1 : E03",
+      "image": "/media/photo-06.webp",
+      "description": "Roshini in a silk sari, surrounded by colour and flowers.",
+      "photos": [
+        6,
+        5,
+        8
+      ]
+    },
+    {
+      "id": "sweetie",
+      "title": "A Little Furry Company",
+      "label": "S1 : E04",
+      "image": "/media/photo-03.webp",
+      "description": "Roshini with a little companion, including a photograph marked “sweetie”.",
+      "photos": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "mathi",
+      "title": "That Smile",
+      "label": "S1 : E05",
+      "image": "/media/photo-14.webp",
+      "description": "Mathi, smiling on a motorcycle. A photograph to return to, for as long as you like.",
+      "photos": [
+        14,
+        13,
+        1
+      ]
+    },
+    {
+      "id": "everyday",
+      "title": "The Everyday Frames",
+      "label": "S1 : E06",
+      "image": "/media/photo-12.webp",
+      "description": "Portraits, familiar faces, and the little frames that make up a collection.",
+      "photos": [
+        12,
+        7,
+        9,
+        10,
+        11,
+        4
+      ]
+    },
+    {
+      "id": "words",
+      "title": "Words I’d Keep Forever",
+      "label": "S1 : E07",
+      "image": "/media/photo-13.webp",
+      "description": "Exact excerpts from the saved conversation. Open the original screenshot to see these words in context.",
+      "photos": [
+        15,
+        15,
+        15
+      ],
+      "kind": "chat"
+    },
+    {
+      "id": "forever",
+      "title": "Forever, Us",
+      "label": "S1 : E08",
+      "image": "/media/photo-04.webp",
+      "description": "Ten years of love, kept close in photographs, films and words.",
+      "photos": [
+        4,
+        1,
+        13,
+        14
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": "film-1",
+      "title": "On the Road With Mathi",
+      "video": 1,
+      "duration": "0:17",
+      "description": "Mathi behind the wheel, in the original 17-second clip."
+    },
+    {
+      "id": "film-2",
+      "title": "A Smile for the Camera",
+      "video": 2,
+      "duration": "0:15",
+      "description": "Roshini in a striped top, looking into the camera."
+    },
+    {
+      "id": "film-3",
+      "title": "A Little Dance",
+      "video": 3,
+      "duration": "0:14",
+      "description": "A playful dance, preserved in the original clip."
+    },
+    {
+      "id": "film-4",
+      "title": "An Afternoon in Stripes",
+      "video": 4,
+      "duration": "0:21",
+      "description": "Roshini outdoors in a striped top."
+    },
+    {
+      "id": "film-5",
+      "title": "Hearts and Expressions",
+      "video": 5,
+      "duration": "0:20",
+      "description": "Roshini in pink, with the original heart filter."
+    },
+    {
+      "id": "film-6",
+      "title": "Sweetie, in Motion",
+      "video": 6,
+      "duration": "0:10",
+      "description": "Roshini and her little furry companion."
+    }
+  ],
+  "chats": [
+    {
+      "text": "I love you mathi"
+    },
+    {
+      "text": "Love you lot roshini"
+    },
+    {
+      "text": "Thanks fr ur unconditional love"
+    }
+  ],
+  "timeline": [
+    {
+      "label": "THE BEGINNING",
+      "title": "10th standard",
+      "text": "School love. The beginning Roshini shared.",
+      "photo": 13
+    },
+    {
+      "label": "THEIR TIME TOGETHER",
+      "title": "10 years of love",
+      "text": "A decade, remembered through their photographs and videos.",
+      "photo": 1
+    },
+    {
+      "label": "HELD CLOSE",
+      "title": "Still living in his memories",
+      "text": "Roshini’s words, exactly as shared.",
+      "photo": 14
+    }
+  ]
+}
