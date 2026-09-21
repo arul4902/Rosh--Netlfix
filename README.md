@@ -14,7 +14,7 @@ Import the repository with the project root set to this directory. `vercel.json`
 
 Edit `content/story.json` for chapter titles, descriptions, film titles and their durations, exact chat excerpts, timeline details, and the optional letter. Dates, songs, locations and voice notes are empty because they were not supplied. Adding those content types requires corresponding rendering, rather than inventing entries. Assets live in `public/media`. Read `CONTENT-MAP.md` for the source-to-chapter map and factual boundaries.
 
-The soundtrack is an original synthesized ambient chord, not an attributed favourite song. Videos retain their original audio. No generated portraits or fabricated messages are included. Video transcripts were not supplied; the original films currently have no subtitle tracks.
+The personalized Tamil song is “உன் நினைவில் வாழ்கிறாய்”. “A Life Full of Love Theme (Instrumental)” loops as background music. Both recordings were supplied by the user. Background playback is attempted on arrival; when the browser blocks audible autoplay, Enter with sound starts it. Enter quietly disables sound. Background music pauses for the personalized song or a film and resumes afterward unless paused or muted. Videos retain their original audio. No generated portraits or fabricated messages are included. Video transcripts were not supplied; the original films currently have no subtitle tracks.
 
 ## Features
 
@@ -23,7 +23,7 @@ The soundtrack is an original synthesized ambient chord, not an attributed favou
 - Photo sequences, exact chat excerpts and the original chat screenshot
 - Six original films, native playback controls, saved playback position
 - Device-local favourites, search and viewing progress
-- Original optional ambient soundscape and global mute
+- Personalized Tamil song, looping background instrumental, volume controls and global mute
 - Memory wall, factual timeline and quiet final chapter
 - Reduced-motion styles, focus states, modal focus management and mobile bottom sheets
 

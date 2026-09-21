@@ -1,7 +1,7 @@
 # Roshini × Mathi — content map
 
 ## Established story
-The supplied text screenshot establishes the names Mathi and Roshini, school love beginning in 10th standard, ten years of love, and her words “Still living in his memories”. No exact dates, locations, favourite songs, voice notes, or letter were supplied. These fields remain empty in `content/story.json`. Chapter names are editorial descriptions, not invented historical events. Timeline images illustrate the collection and do not claim to document school years.
+The supplied text screenshot establishes the names Mathi and Roshini, school love beginning in 10th standard, ten years of love, and her words “Still living in his memories”. No exact dates, locations, voice notes, or letter were supplied. These fields remain empty in `content/story.json`. Chapter names are editorial descriptions, not invented historical events. Timeline images illustrate the collection and do not claim to document school years.
 
 ## Photographs and screenshots
 All originals remain untouched. Website copies use WebP. Portraits are contained in immersive players; hero uses a blurred duplicate behind the full portrait.
@@ -38,7 +38,7 @@ Each film was inspected at 15%, 50%, and 80% of duration; midpoint provides the 
 | 6 | 10.15 s | 360 × 636 | Roshini with dog — Sweetie, in Motion |
 
 ## Emotional sequence
-Original RM light opening → profiles → couple hero → school-love context → shared frames and portraits → replay feature → films → exact chat → little details → optional original ambient soundscape → warm Polaroid wall → evidence-based timeline → Roshini’s supplied words → quiet ending.
+Original RM light opening → profiles → couple hero → school-love context → shared frames and portraits → replay feature → films → exact chat → little details → personalized Tamil song and background instrumental → warm Polaroid wall → evidence-based timeline → Roshini’s supplied words → quiet ending.
 
 ## Editing and privacy
-Personal content is separated into `content/story.json`. Images and videos are in `public/media`. Empty song, date, voice-note and letter fields are not rendered as fake memories. The ambient soundscape is original synthesized audio, not a claimed favourite song. Device-local favourites/progress use browser storage. The hosted Site remains owner-private. No analytics, third-party fonts, remote trackers or AI portraits are used.
+Personal content is separated into `content/story.json`. Images, videos and the two supplied MP3 recordings are in `public/media`. Empty date, voice-note and letter fields are not rendered as fake memories. The personalized song is “உன் நினைவில் வாழ்கிறாய்”; “A Life Full of Love Theme (Instrumental)” is the looping background music. Both were supplied in the follow-up request. Audible autoplay is attempted on arrival, with Enter with sound as the browser-permission fallback. Device-local favourites/progress use browser storage. The GitHub repository and Vercel website contain the supplied media; access depends on the hosting settings. No analytics, third-party fonts, remote trackers or AI portraits are used.

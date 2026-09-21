@@ -7,7 +7,18 @@
   },
   "dates": [],
   "locations": [],
-  "songs": [],
+  "songs": [
+    {
+      "title": "உன் நினைவில் வாழ்கிறாய்",
+      "role": "personalized",
+      "src": "/media/un-ninaivil-vaazhgiraai.mp3"
+    },
+    {
+      "title": "A Life Full of Love Theme (Instrumental)",
+      "role": "background",
+      "src": "/media/a-life-full-of-love-theme.mp3"
+    }
+  ],
   "voiceNotes": [],
   "letter": null,
   "episodes": [
